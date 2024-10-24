@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">miniproject</string>
+    <string name="dietary_guidelines">
+    1. Eat a variety of foods:\n   Include different food groups in your diet to ensure you\'re getting a range of nutrients.\n\n
+    2. Base your diet on plenty of foods rich in carbohydrates:\n   Choose whole grains, fruits, and vegetables to provide energy.\n\n
+    3. Replace saturated fat with unsaturated fat:\n   Opt for healthy fats from sources like olive oil, avocados, and nuts.\n\n
+    4. Enjoy plenty of fruits and vegetables:\n   Aim for at least five portions of a variety of fruits and vegetables each day.\n\n
+    5. Reduce salt and sugar intake:\n   Limit processed foods and be mindful of added sugars and salt in your meals.\n\n
+    6. Stay hydrated:\n   Drink plenty of water throughout the day, and limit sugary drinks.\n\n
+    7. Practice portion control:\n   Be mindful of serving sizes to help maintain a healthy weight.
+</string>
+
+</resources>

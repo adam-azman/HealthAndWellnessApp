@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#FFFFFF</color>
+    <color name="title_color">#000000</color>
+    <color name="result_color">#000000</color>
+    <color name="underweight_color">#2196F3</color> <!-- Blue -->
+    <color name="normal_weight_color">#4CAF50</color> <!-- Green -->
+    <color name="overweight_color">#FF9800</color> <!-- Orange -->
+    <color name="obese_color">#F44336</color> <!-- Red -->
+    <color name="button_color">#6200EE</color> <!-- Purple -->
+    <color name="lightBackground">#FFFFFF</color>
+    <color name="primaryText">#000000</color>
+    <color name="secondaryText">#333333</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bgc">#c9fffe</color>
+</resources>

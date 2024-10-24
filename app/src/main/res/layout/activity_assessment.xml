@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssessmentActivity"
+    android:background="@drawable/image2">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health Assessment"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_marginTop="16dp"
+        android:hint="Height (cm)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight (kg)"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/editTextHeight"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Additional Notes"
+        android:inputType="textMultiLine"
+        android:lines="1"
+        android:gravity="top"
+        android:layout_below="@id/editTextWeight"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Date"
+        android:focusable="false"
+        android:layout_below="@id/editTextNotes"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Assessment"
+        android:layout_below="@id/editTextDate"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonShowSubmissions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show All Submissions"
+        android:layout_below="@id/buttonSave"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewAssessmentResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/buttonShowSubmissions"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+</RelativeLayout>
